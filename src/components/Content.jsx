@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import notes2 from "../assets/notes2.webp"
 import taskimg from "../assets/taskimg.png"
 import deletebutton from "../assets/deletebutton.jpg"
 import updatebutton from "../assets/updatebutton.jpeg"
@@ -92,9 +92,9 @@ function Content() {
   return (
     <div className='maincontent'>
         <div className='leftcontent'>
-          <img src={dp} alt="" className='profpic' />
+          <img src= {dp} alt="" className='profpic' />
           <h1>Hi! {name}</h1>
-          <img src={taskimg} alt="" className='taskimg'/>
+          <img src={notes2} alt="" className='taskimg'/>
 
         </div>
         <div className='rightcontent'>

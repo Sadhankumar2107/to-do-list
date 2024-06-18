@@ -8,6 +8,7 @@ import { auth, provider } from './firebase'
 
 
 
+
 function Signin() {
 
   const [redirect,setRedirect] =useState(false)
@@ -28,7 +29,6 @@ function Signin() {
     <div className='signcontent'>
         <div className='signdiv'>
             <h1>Sign-In</h1>
-            <img src={taskimg} width='400px' alt="" />
             <button onClick={handleClick} >
                 <img src= {google} alt="" className='google' />
                 Continue with Google
